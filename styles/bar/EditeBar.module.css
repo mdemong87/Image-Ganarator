@@ -1,9 +1,5 @@
-.barWrp {
-    margin: 20px 0px;
-}
-
 .berContainer {
-    margin-top: 30px;
+    width: 100%;
     display: grid;
     grid-template-columns: 5fr 1fr;
     grid-gap: 15px;
@@ -13,7 +9,7 @@
 
 .inputWrp>input {
     width: 100%;
-    padding: 15px;
+    padding: 11px;
     background: #fff;
     border-radius: 7px;
     font-size: 17px;
@@ -23,7 +19,7 @@
 
 .btnWrp {
     background: var(--btn);
-    padding: 15px;
+    padding: 11px;
     border-radius: 7px;
     cursor: pointer;
 }
