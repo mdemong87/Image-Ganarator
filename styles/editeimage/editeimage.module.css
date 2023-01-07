@@ -1,0 +1,47 @@
+.editeArea {
+    height: 80vh;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 20px;
+}
+
+.editeArea>div {
+    background: rgb(28, 28, 28);
+    border-radius: 10px;
+}
+
+.bannerarea {
+    display: grid;
+    grid-template-rows: auto 70px;
+}
+
+.bannerarea>div {
+    display: flex;
+    align-items: center;
+    margin: 15px 15px;
+}
+
+.dbtn {
+    width: 100%;
+    margin: auto;
+    background: var(--btn);
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 8px;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.viewArea {
+    border: 1px solid var(--btn);
+    border-radius: 7px;
+
+
+}
+
+.tools {
+    border: 1px solid var(--btn);
+    border-radius: 7px;
+}
